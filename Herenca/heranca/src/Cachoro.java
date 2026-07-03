@@ -1,9 +1,8 @@
 public class Cachoro extends Animal{
 
     String nomeCachoro = "Rex";
-    
-    public void Latir(){
 
+    public void Latir(){
         fazerSom();
     }
 }
