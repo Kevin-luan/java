@@ -4,7 +4,6 @@ public class Tarefa {
     public Tarefa(String descricaoTarefa){
             this.descricaoaTarefa = descricaoTarefa;
     }
-
     public String getDescricaoTarefa() {
         return descricaoaTarefa;
     }
