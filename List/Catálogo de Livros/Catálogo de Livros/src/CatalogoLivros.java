@@ -32,4 +32,17 @@ public class CatalogoLivros {
         return livroPorAutor;
     }
 
+    public List<Livro> persquisarLivroData(int anoIncial, int anoFinal) {
+        List<Livro> livroPorData = new ArrayList<>();
+        if (!livrosList.isEmpty()) {
+            for (Livro l : livrosList) {
+                if (l.getAnoPublicacao() >= anoIncial && l.getAnoPublicacao() <= anoIncial) {
+                    livroPorData.add(l);
+                }
+            }
+
+        }
+        return livroPorData;
+    }
+
 }
